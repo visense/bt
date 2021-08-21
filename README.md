@@ -1,6 +1,6 @@
 # 脚本简介
 ## 这个脚本是一个快捷综合一键安装脚本，里面集成了各种常用一键脚本命令，详情请看介绍图
-![image](https://github.com/wxfyes/bt/blob/master/imgs/QQ%E6%88%AA%E5%9B%BE20210520132741.png)
+![image](https://github.com/visense/onkey/blob/onekey/imgs/123.jpg)
 
 安装命令脚本
 ```
