@@ -179,6 +179,9 @@ start_menu(){
 	 yellow " 22. gost隧道一键中转 "
 	 yellow " 23. Ehco隧道一键中转 "
 	 yellow " 24. 查看本机IP "
+	 yellow " 25. 安装docker "
+	 yellow " 26. 设置为上海时区 "
+	 yellow " 27. 安装xray "
         red " 0. 退出脚本 "
     echo
     read -p "请输入数字:" num
@@ -260,6 +263,9 @@ start_menu(){
 		;;
 		26)
                 vps_timezoneset
+		;;
+		27)
+                vps_xray
 		;;
 		0)
 		exit 0
