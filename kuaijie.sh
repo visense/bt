@@ -133,9 +133,9 @@ start_menu(){
     clear
 	green "=========================================================="
          blue " 本脚本支持：CentOS7+ / Debian9+ / Ubuntu16.04+"
-	 blue " 网站：https://wxf2088.xyz "
-	 blue " YouTube频道：王晓峰"
-	 blue " TG频道：https://t.me/buluoge "
+	 blue " 网站：https://maskviral.com"
+	 blue " YouTube频道：maskviralTV"
+	 blue " TG频道：https://t.me/maskviral"
          blue " 此脚本源于网络，仅仅只是汇聚脚本功能，方便大家使用而已！"
 	green "=========================================================="
       red " 脚本测速会大量消耗 VPS 流量，请悉知！"
