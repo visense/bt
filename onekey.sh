@@ -48,6 +48,9 @@ $systemPackage -y install wget curl
 vps_dockerinstall(){
         curl -fsSL https://get.docker.com -o get-docker.sh  &&  bash get-docker.sh
 }
+vps_xray(){
+       wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/wulabing/Xray_onekey/main/install.sh" && chmod +x install.sh && bash install.sh
+}
 vps_timezoneset(){
         timedatectl set-timezone Asia/Shanghai
 }
