@@ -45,6 +45,12 @@ fi
 
 $systemPackage -y install wget curl
 
+vps_dockerinstall(){
+        curl -fsSL https://get.docker.com -o get-docker.sh  &&  bash get-docker.sh
+}
+vps_timezoneset(){
+        timedatectl set-timezone Asia/Shanghai
+}
 vps_superspeed(){
 	wget -qO- --no-check-certificate https://raw.githubusercontent.com/oooldking/script/master/superbench.sh | bash
 }
@@ -174,7 +180,7 @@ start_menu(){
     echo
     read -p "请输入数字:" num
     case "$num" in
-    	1)
+    	        1)
 		vps_superspeed
 		;;
 		2)
@@ -245,6 +251,12 @@ start_menu(){
 		;;
 		24)
 		vps_ip
+		;;
+		25)
+                vps_dockerinstall
+		;;
+		26)
+                vps_timezoneset
 		;;
 		0)
 		exit 0
