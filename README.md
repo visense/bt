@@ -4,7 +4,7 @@
 
 安装命令脚本
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/visense/onkey/onekey/kuaijie.sh && bash kuaijie.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/visense/onkey/onekey/onekey.sh && bash onekey.sh
 ```
 
 后续有实用的脚本还会陆续增加！当然，如果你有好的建议，也可以发lssues告知我，我会添加进去！
